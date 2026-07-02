@@ -1,0 +1,58 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Ambientes virtuais e variáveis locais
+.env
+.env.*
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Dados brutos e arquivos grandes
+jsons_ibge_baixados.zip
+*.rar
+*.7z
+dados/
+data/
+raw/
+
+# Resultados gerados pelo notebook
+resultados_produtividade_leiteira_ml/
+resultados_produtividade_leiteira_ml.zip
+
+# Modelos e pré-processadores treinados
+*.joblib
+*.pkl
+*.pickle
+*.h5
+*.keras
+checkpoints/
+
+# Logs e saídas temporárias
+logs/
+tensorboard/
+wandb/
+*.log
+*.tmp
+*.temp
+
+# Cache de bibliotecas
+.cache/
+.keras/
